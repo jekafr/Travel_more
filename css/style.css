@@ -1,0 +1,386 @@
+/* Typography */
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Aleo', serif;
+  font-size: 12px;
+  color: #727f82; }
+
+/* Styleguide */
+.primary-btn {
+  width: 150px;
+  height: 60px;
+  border: solid 2px #e8e8e8;
+  background-color: #5474fd;
+  font-size: 1rem;
+  line-height: 2;
+  padding-left: 36px;
+  padding-right: 36px;
+  margin-left: auto; }
+
+.btn {
+  width: 225px;
+  height: 60px;
+  background-color: #5474fd;
+  font-family: Aleo;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: 1.2px;
+  text-align: center;
+  color: #e8e8e8; }
+
+/* Layout */
+body {
+  margin: 15px; }
+
+img:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity: 0.8;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  overflow-wrap: initial; }
+
+.container {
+  max-width: 1100px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.hero {
+  background-image: url("..///img/hero.jpg");
+  background-size: cover;
+  background-color: #5474fd;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center top;
+  position: relative; }
+
+.header {
+  padding-top: 265px;
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: calc(100vh - 80px); }
+  .header__logo {
+    font-family: Josefin Sans;
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: uppercase;
+    line-height: 1.08;
+    letter-spacing: 2.4px;
+    color: #FFF;
+    text-transform: uppercase; }
+  .header__slogan {
+    font-family: 'Josefin Sans';
+    color: #fff;
+    font-size: 1.37rem;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.18;
+    letter-spacing: 6.82px;
+    padding-bottom: 50px;
+    padding-top: 15px;
+    text-align: center; }
+  .header__search {
+    height: 60px;
+    width: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .header__input {
+    font-family: JosefinSans;
+    font-size: .875rem;
+    line-height: 1.86;
+    letter-spacing: 2.8px;
+    text-align: center;
+    color: #999999;
+    width: 100%; }
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center; }
+
+.nav {
+  color: #fff;
+  bottom: 0;
+  background-color: #5474fd;
+  width: 100%;
+  height: 80px; }
+  .nav-logo {
+    font-family: Josefin Sans;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    line-height: 1.08;
+    letter-spacing: 2.4px;
+    color: #FFF;
+    text-transform: uppercase; }
+  .nav-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0; }
+
+.nav-menu__item {
+  padding-right: 43px;
+  font-family: Aleo;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: left;
+  color: #e8e8e8; }
+
+.nav-menu__item a {
+  color: #e8e8e8; }
+
+.hero2 {
+  background-image: url("..///img/why.jpg");
+  height: 685px;
+  padding-top: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  position: relative; }
+
+.hero3 {
+  height: 337px;
+  background-color: #333; }
+
+.info {
+  background-color: #232323;
+  padding-top: 80px;
+  padding-bottom: 120px; }
+  .info__items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0 50px; }
+  .info__item {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .info__icon {
+    width: 60px;
+    height: auto; }
+
+.hero4 {
+  background-image: url("..///img/spain.jpg");
+  height: 100vh;
+  padding-top: 230px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  position: relative; }
+
+.hero5 {
+  background-image: url("..///img/spain-1.jpg");
+  height: 100vh;
+  padding-top: 230px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  position: relative; }
+
+.hero6 {
+  background-image: url("..///img/review.jpg");
+  height: 100vh;
+  padding-top: 230px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  position: relative; }
+
+.footer {
+  background-color: #232323;
+  height: 268px; }
+
+.benefits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .benefits__title {
+    padding-bottom: 62px;
+    height: 33px;
+    font-family: Aleo;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.72;
+    letter-spacing: normal;
+    text-align: left;
+    color: #e8e8e8; }
+  .benefits__description {
+    padding-bottom: 48px;
+    width: 530px;
+    height: 146px;
+    font-family: JosefinSans;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.63;
+    letter-spacing: 1.6px;
+    text-align: left;
+    color: #e8e8e8; }
+  .benefits__benefits__images {
+    padding: 17.5% 0; }
+  .benefits__img1 {
+    position: relative;
+    top: -30px;
+    left: 105px; }
+  .benefits__img2 {
+    position: relative; }
+
+.infoblock {
+  width: 540px;
+  height: 371px; }
+
+.location__information {
+  padding: 50px 30px;
+  opacity: 0.9;
+  background-color: #232323; }
+
+.location__country {
+  font-family: JosefinSans;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.3;
+  letter-spacing: 1.5px;
+  text-align: left;
+  color: #e8e8e8;
+  padding-bottom: 30px; }
+
+.location__name {
+  font-family: JosefinSans;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fefefe;
+  padding-bottom: 30px; }
+
+.location__descr {
+  font-family: JosefinSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  text-align: left;
+  color: #e8e8e8;
+  padding-bottom: 48px; }
+
+.reviews__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.reviews__title {
+  margin-bottom: 120px;
+  font-family: Aleo;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.72;
+  letter-spacing: normal;
+  text-align: center;
+  color: #e8e8e8; }
+
+.rewiews__info {
+  background-color: #333333;
+  padding: 100px 54px 48px 60px; }
+
+.rewiews__descr {
+  font-family: JosefinSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  text-align: left;
+  color: #e8e8e8; }
+
+.footer__content {
+  text-align: center;
+  padding: 120px 0; }
+
+.footer__title {
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  font-family: JosefinSans;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.08;
+  letter-spacing: 3.36px;
+  color: #e8e8e8; }
+
+.footer__slogan {
+  font-family: JosefinSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: 1.6px;
+  color: #e8e8e8; }
+
+.footer__text {
+  letter-spacing: 1.6px;
+  text-align: center; }
+
+.footer__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0; }
+  .footer__social-item {
+    padding: 12px; }
+  .footer__social-link {
+    color: #fff; }
+    .footer__social-link:hover {
+      color: #5474fd; }
+  .footer__social-icon {
+    height: 16px;
+    width: 16px; }
